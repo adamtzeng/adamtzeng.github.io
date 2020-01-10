@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  font-family: 'Sunflower', sans-serif;
+}
+pre {
+    font-family: 'Sunflower', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  left: 0;
+  overflow: hidden;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #4CAF50;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+.top {
+  padding-top: 300px;
+  text-align: center;
+  background-color: black;
+
+}
+.top h1 {
+  color: white;
+}
+.top p {
+  color: white;
+  font-size: 24px;
+}
+.aboutme {
+  background-color: #f3f3f3;
+  padding: 20px;
+}
+.aboutme h1 {
+  padding-top: 220px;
+  text-align: center;
+}
+.aboutme p{
+  text-align: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  line-height: 1.5;
+}
+.skills {
+  padding-top: 30px;
+}
+.skills h1 , h3{
+  text-align: center;
+}
+.skills table{
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+}
+.contact-me{
+  text-align: center;
+}
+
+.info {
+  background-color: #e7e7e7;
+  padding-bottom: 1px;
+}
+.info p {
+  text-align: left;
+  margin-right: 300px;
+
+}
+#skills-table{
+  border-collapse: collapse;
+
+}
+#skills-table td, #skills-table th {
+  border: 0.5px solid #ddd;
+  padding: 5px;
+}
+#skills-table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: #17a2b8;
+}
+#topsection {
+  height: 600px;
+}
+
+#section2 {
+  height: 600px;
+}
+
+#section3 {
+  height: auto;
+}
+
+#section4 {
+  height: auto;
+}
+#section5 {
+  height: auto;
+}
+}
